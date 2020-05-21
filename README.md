@@ -1,13 +1,13 @@
-#Overview
+# Overview
 
 Basic script to calculate the efficient frontier between 2 portfolios with 4 equities of different weights.
 
 Currently, the Variance, Covariance, and Expected Return values are guesstimates. 
 
-#TODO
+# TODO
 Calculate Variance, Covariance, and Expected Return values from an input data set.
 
-#Graphing Results using gnuplot
+# Graphing Results using gnuplot
 The following commands can be used to plot the results on a graph using gnuplot in terminal:
 
 Assuming the enveloped data is saved to `./envelope.dat` and the efficient_frontier calculations are saved to `./efficient_frontier.dat`
