@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.17)
-project(Efficient_Frontier)
+project(Efficient-Frontier)
 message(STATUS "start running cmake...")
 
 set(CMAKE_CXX_STANDARD 11)
@@ -19,10 +19,10 @@ if(Boost_FOUND)
     ADD_DEFINITIONS(-DBOOST_TEST_DYN_LINK)
 endif()
 
-add_executable(Efficient_Frontier main.cpp)
+add_executable(Efficient-Frontier main.cpp)
 if(Boost_FOUND)
 
-    target_link_libraries(Efficient_Frontier ${Boost_LIBRARIES})
-    target_link_libraries(Efficient_Frontier ${LIBRARIES})
+    target_link_libraries(Efficient-Frontier ${Boost_LIBRARIES})
+    target_link_libraries(Efficient-Frontier ${LIBRARIES})
 
 endif()
